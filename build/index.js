@@ -10,6 +10,6 @@ const app = (0, express_1.default)();
 app.get("/", (req, res) => {
   res.json("hello!! tis is my first applications runs on ec2");
 });
-app.listen(8080, () => {
-  console.log("listening on 8080");
+app.listen(80, () => {
+  console.log("listening on 80");
 });
